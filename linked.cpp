@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 	int n,i,ans,ch,size,c,sb,cb,start,temp;
-	cout<<"Enter memory size : ";
+	cout<<"Enter the size of the memory available : ";
 	cin>>n;
 	int memory[n][2];
 	for(i=0;i<n;++i){
