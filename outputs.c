@@ -3,6 +3,6 @@
 int main()
 {
     int a=2,b;
-    b=(a++ + ++a) + ++a;
+    b=(++a + a++) + ++a;
     printf("%d %d",b,a);
 }
